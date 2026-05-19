@@ -11,15 +11,79 @@ const sidebar = document.querySelector("#sidebar");
 const themeToggle = document.querySelector("#theme-toggle");
 const fontDown = document.querySelector("#font-down");
 const fontUp = document.querySelector("#font-up");
+const nameModeSelect = document.querySelector("#name-mode-select");
+
+const NAME_MODE_KEY = "astrael-reader-name-mode";
+const nameModeValues = new Set(["english", "thai", "english-thai", "thai-english"]);
+const nameEntries = [
+  { english: "Admiral Adrian Valcrest", thai: "พลเรือเอก เอเดรียน วาลเครสต์" },
+  { english: "Patrick Draven Alcine", thai: "แพททริค เดรเวน แอลซีน" },
+  { english: "Magnus Reinhardt", thai: "แม็กนัส ไรน์ฮาร์ด" },
+  { english: "Adrian Valcrest", thai: "เอเดรียน วาลเครสต์" },
+  { english: "Alistair Valtieri", thai: "อลิสแตร์ วัลเทียรี" },
+  { english: "Aurelius Valtieri", thai: "ออเรเลียส วัลเทียรี" },
+  { english: "Seraphina Valtieri", thai: "เซราฟินา วัลเทียรี" },
+  { english: "Patrick Alcine", thai: "แพททริค แอลซีน" },
+  { english: "Draven Alcine", thai: "เดรเวน แอลซีน" },
+  { english: "Cedric Alcine", thai: "เซดริก แอลซีน" },
+  { english: "Elias Velmora", thai: "อีเลียส เวลมอรา" },
+  { english: "Vael Drakhar", thai: "เวล ดราคฮาร์" },
+  { english: "Kael Alcine", thai: "เคล แอลซีน" },
+  { english: "Black Guard", thai: "แบล็กการ์ด" },
+  { english: "Frostfang", thai: "ฟรอสต์แฟง" },
+  { english: "Reinhardt", thai: "ไรน์ฮาร์ด" },
+  { english: "Seraphina", thai: "เซราฟินา" },
+  { english: "Valcrest", thai: "วาลเครสต์" },
+  { english: "Valtieri", thai: "วัลเทียรี" },
+  { english: "Duremont", thai: "ดูเรมอนต์" },
+  { english: "Velmora", thai: "เวลมอรา" },
+  { english: "Varelia", thai: "วาเรเลีย" },
+  { english: "Drakhar", thai: "ดราคฮาร์" },
+  { english: "Eryndor", thai: "เอรินดอร์" },
+  { english: "Aurelis", thai: "ออเรลิส" },
+  { english: "Aurelius", thai: "ออเรเลียส" },
+  { english: "Alistair", thai: "อลิสแตร์" },
+  { english: "Patrick", thai: "แพททริค" },
+  { english: "Cedric", thai: "เซดริก" },
+  { english: "Magnus", thai: "แม็กนัส" },
+  { english: "Adrian", thai: "เอเดรียน" },
+  { english: "Eldric", thai: "เอลดริก" },
+  { english: "Aldren", thai: "อัลเดรน" },
+  { english: "Arcelia", thai: "อาร์เซเลีย" },
+  { english: "Rensveil", thai: "เรนส์เวล" },
+  { english: "Veymar", thai: "เวย์มาร์" },
+  { english: "Aresia", thai: "อาเรเซีย" },
+  { english: "Lacoss", thai: "ลาคอส" },
+  { english: "Alcine", thai: "แอลซีน" },
+  { english: "Draven", thai: "เดรเวน" },
+  { english: "Alvis", thai: "อัลวิส" },
+  { english: "Rowan", thai: "โรวัน" },
+  { english: "Elias", thai: "อีเลียส" },
+  { english: "Kael", thai: "เคล" },
+  { english: "Vael", thai: "เวล" },
+  { english: "Eli", thai: "อีไล" },
+];
+
+const nameLookup = new Map(nameEntries.map((entry) => [entry.english, entry]));
+const namePattern = new RegExp(
+  `(^|[^A-Za-z])(${nameEntries
+    .map((entry) => entry.english)
+    .sort((a, b) => b.length - a.length)
+    .map(escapeRegExp)
+    .join("|")})(?![A-Za-z])`,
+  "g",
+);
 
 let activeIndex = Math.max(0, chapters.findIndex((chapter) => chapter.number === "1"));
 let fontScale = Number(localStorage.getItem("astrael-reader-font-scale") ?? 1);
+let nameMode = getSavedNameMode();
 
 init();
 
 function init() {
   applySavedTheme();
   applyFontScale();
+  applyNameModeControl();
   bindEvents();
   renderChapterList(chapters);
   renderChapter(activeIndex);
@@ -64,6 +128,11 @@ function bindEvents() {
 
   fontDown.addEventListener("click", () => setFontScale(fontScale - 0.08));
   fontUp.addEventListener("click", () => setFontScale(fontScale + 0.08));
+  nameModeSelect?.addEventListener("change", () => {
+    nameMode = nameModeValues.has(nameModeSelect.value) ? nameModeSelect.value : "english";
+    localStorage.setItem(NAME_MODE_KEY, nameMode);
+    renderChapter(activeIndex);
+  });
 
   chapterList.addEventListener("click", (event) => {
     const button = event.target.closest(".chapter-item");
@@ -87,7 +156,7 @@ function renderChapterList(items) {
           type="button"
         >
           <span>${chapter.number === "0" ? "ตอน 00" : `ตอน ${chapter.number}`}</span>
-          <strong>${escapeHtml(chapter.title)}</strong>
+          <strong>${inline(chapter.title)}</strong>
         </button>
       `,
     )
@@ -103,7 +172,7 @@ function renderChapter(index) {
   activeIndex = index;
   const chapter = chapters[activeIndex];
   chapterKicker.textContent = chapter.number === "0" ? "ตอน 00" : `ตอน ${chapter.number}`;
-  chapterTitle.textContent = chapter.title;
+  chapterTitle.innerHTML = inline(chapter.title);
   chapterContent.innerHTML = renderMarkdown(chapter.content);
   prevButton.disabled = activeIndex === 0;
   nextButton.disabled = activeIndex === chapters.length - 1;
@@ -204,10 +273,50 @@ function renderMarkdown(markdown) {
 }
 
 function inline(text) {
-  return escapeHtml(text)
+  return escapeHtml(formatNameText(text))
     .replace(/&lt;br \/&gt;/g, "<br />")
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/`([^`]+)`/g, "<code>$1</code>");
+}
+
+function formatNameText(text) {
+  if (!text || nameMode === "english") {
+    return text;
+  }
+
+  return text.replace(namePattern, (match, prefix, englishName) => {
+    const entry = nameLookup.get(englishName);
+    if (!entry) {
+      return match;
+    }
+
+    return `${prefix}${formatNameEntry(entry)}`;
+  });
+}
+
+function formatNameEntry(entry) {
+  if (nameMode === "thai") {
+    return entry.thai;
+  }
+
+  if (nameMode === "thai-english") {
+    return `${entry.thai} (${entry.english})`;
+  }
+
+  return `${entry.english} (${entry.thai})`;
+}
+
+function getSavedNameMode() {
+  const savedMode = localStorage.getItem(NAME_MODE_KEY);
+  return nameModeValues.has(savedMode) ? savedMode : "english-thai";
+}
+
+function applyNameModeControl() {
+  if (nameModeSelect == null) {
+    return;
+  }
+
+  nameModeSelect.value = nameMode;
 }
 
 function applySavedTheme() {
@@ -237,4 +346,8 @@ function escapeHtml(value) {
 
 function escapeAttribute(value) {
   return escapeHtml(value);
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
