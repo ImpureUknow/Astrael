@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Astrael - เว็บอ่านนิยายตอน 1-42" />
+    <title>Astrael Reader</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <button class="icon-button mobile-only" id="nav-toggle" type="button" aria-label="เปิดสารบัญ" title="เปิดสารบัญ">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+      </button>
+
+      <div class="brand">
+        <strong>ASTRAEL</strong>
+        <span>The Fall and Rebirth</span>
+      </div>
+
+      <div class="toolbar">
+        <button class="icon-button" id="font-down" type="button" aria-label="ลดขนาดตัวอักษร" title="ลดขนาดตัวอักษร">A-</button>
+        <button class="icon-button" id="font-up" type="button" aria-label="เพิ่มขนาดตัวอักษร" title="เพิ่มขนาดตัวอักษร">A+</button>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="สลับธีม" title="สลับธีม">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="reader-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="series-meta">
+          <p>ภาค 1</p>
+          <h1>The Fall and Rebirth</h1>
+        </div>
+
+        <label class="search-wrap">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" />
+          </svg>
+          <input id="search-input" type="search" placeholder="ค้นหาตอน" autocomplete="off" />
+        </label>
+
+        <nav class="chapter-list" id="chapter-list" aria-label="รายชื่อตอน"></nav>
+      </aside>
+
+      <section class="reading-pane">
+        <div class="chapter-head">
+          <p id="chapter-kicker"></p>
+          <h2 id="chapter-title"></h2>
+        </div>
+
+        <article class="chapter-content" id="chapter-content"></article>
+
+        <footer class="chapter-nav">
+          <button id="prev-chapter" type="button">ก่อนหน้า</button>
+          <button id="next-chapter" type="button">ถัดไป</button>
+        </footer>
+      </section>
+    </main>
+
+    <script src="./chapters.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
