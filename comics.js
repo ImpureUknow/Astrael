@@ -6,7 +6,7 @@ window.ASTRAEL_COMICS = {
     ],
     "pages": [
       {
-        "src": "./assets/comic/chapter-00/page-01.webp?v=d563fc687a1a",
+        "src": "./assets/comic/chapter-00/page-01.webp?v=e48844e6af31",
         "width": 971,
         "height": 1619,
         "description": "ทวีปอาเรเซียและห้าอาณาจักรสำคัญ"
@@ -30,9 +30,9 @@ window.ASTRAEL_COMICS = {
         "description": "วงแหวนเวทและขอบเขตของนักเวทย์"
       },
       {
-        "src": "./assets/comic/chapter-00/page-05.webp?v=c4745fc9413b",
+        "src": "./assets/comic/chapter-00/page-05.webp?v=0c8a3477f850",
         "width": 971,
-        "height": 1619,
+        "height": 1620,
         "description": "โลกก่อนพายุสงคราม และอัสทราเอลที่ยังไม่ถือกำเนิด"
       }
     ]
@@ -63,27 +63,27 @@ window.ASTRAEL_COMICS = {
         "description": "องค์หญิงเซราฟินาและคราบหมึกที่นิ้วของแพทริก"
       },
       {
-        "src": "./assets/comic/chapter-01/page-04.webp?v=6b73ae366104",
+        "src": "./assets/comic/chapter-01/page-04.webp?v=ffd00c74ef0c",
         "width": 971,
-        "height": 1620,
+        "height": 1619,
         "description": "กำลังใจในสวน โถงสภาสีขาว และการเสด็จของกษัตริย์"
       },
       {
-        "src": "./assets/comic/chapter-01/page-04b.webp?v=f8281923e6e2",
+        "src": "./assets/comic/chapter-01/page-04b.webp?v=759f30e1d003",
         "width": 971,
-        "height": 1620,
+        "height": 1619,
         "description": "กษัตริย์ประทับบัลลังก์และเริ่มการประชุมขุนนาง"
       },
       {
-        "src": "./assets/comic/chapter-01/page-05.webp?v=558372c75b6d",
+        "src": "./assets/comic/chapter-01/page-05.webp?v=3b4a7b42d342",
         "width": 971,
-        "height": 1619,
+        "height": 1620,
         "description": "สวนพระราชวังยามเย็นและการมาถึงของกษัตริย์"
       },
       {
-        "src": "./assets/comic/chapter-01/page-06.webp?v=3533620aeacf",
+        "src": "./assets/comic/chapter-01/page-06.webp?v=79a68d91fa87",
         "width": 971,
-        "height": 1620,
+        "height": 1619,
         "description": "กษัตริย์กับทายาทพยัคฆ์ขาว"
       },
       {
