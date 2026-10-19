@@ -111,5 +111,123 @@ window.ASTRAEL_COMICS = {
         "description": "สายเลือดราชวงศ์และความหวังของผู้สืบทอด"
       }
     ]
+  },
+  "2": {
+    "title": "เงาสงครามเหนือแดนหิมะ",
+    "novelChapters": [
+      "3",
+      "4",
+      "5"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-02/page-01.webp?v=dfea78ddc653",
+        "width": 971,
+        "height": 1619,
+        "description": "สองปีต่อมา เสบียงแดนเหนือและหน้าที่ของเซดริก"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-02.webp?v=a869be721567",
+        "width": 971,
+        "height": 1619,
+        "description": "แพทริกวัยเก้าขวบฝึกดาบไม้กับเวล"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-03.webp?v=52e8aeadb3c4",
+        "width": 971,
+        "height": 1619,
+        "description": "บทเรียนเรื่องยอดฝีมือและการมีชีวิตรอด"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-04.webp?v=dc64acbedbd1",
+        "width": 971,
+        "height": 1619,
+        "description": "ข่าวชายแดนและเงาของกองทัพเอรินดอร์"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-05.webp?v=3e3fc26d1cd0",
+        "width": 971,
+        "height": 1619,
+        "description": "สัมผัสออร่าครั้งแรกท่ามกลางหิมะ"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-06.webp?v=9e36ece9fc28",
+        "width": 971,
+        "height": 1619,
+        "description": "จักรพรรดิและแผนสงครามในค่ายเอรินดอร์"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-07.webp?v=f14fdfa2eedb",
+        "width": 971,
+        "height": 1619,
+        "description": "เวลมอราระดมพลและขอความช่วยเหลือ"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-08.webp?v=f622c44945a1",
+        "width": 971,
+        "height": 1619,
+        "description": "แม่น้ำ ป้อมปราการ และเส้นเลือดการค้า"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-09.webp?v=6e22c45110e3",
+        "width": 971,
+        "height": 1619,
+        "description": "พรสวรรค์ของแพทริกและคำสั่งเปิดสงคราม"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-10.webp?v=41a59f840ef1",
+        "width": 971,
+        "height": 1619,
+        "description": "เมืองชายแดนถูกโจมตีและข่าวการเสียเรนส์เวล"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-11.webp?v=d24264e19717",
+        "width": 971,
+        "height": 1619,
+        "description": "กองเรือค้าหลวงที่ถูกเผาในคืนเดียว"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-12.webp?v=ba4c1706929a",
+        "width": 971,
+        "height": 1620,
+        "description": "ความกลัวและคำขอให้ฝึกอย่างเข้มงวดขึ้น"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-13.webp?v=b95e309af3cc",
+        "width": 971,
+        "height": 1619,
+        "description": "สงครามข้ามปีและแพทริกวัยสิบขวบ"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-14.webp?v=b567d2145a57",
+        "width": 971,
+        "height": 1619,
+        "description": "กษัตริย์เวลมอรามาถึงกลางพายุหิมะ"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-15.webp?v=1b3b252cf67f",
+        "width": 971,
+        "height": 1619,
+        "description": "เรื่องเล่าหน้าเตาผิงและแผนอ้อมไปตะวันตก"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-16.webp?v=829a8053234b",
+        "width": 971,
+        "height": 1619,
+        "description": "อาณาจักรแห่งปัญญาและนักดาบเวท"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-17.webp?v=d82942cbf0f2",
+        "width": 971,
+        "height": 1619,
+        "description": "สงครามยืดเยื้อและการตัดพันธมิตร"
+      },
+      {
+        "src": "./assets/comic/chapter-02/page-18.webp?v=ed0980034cba",
+        "width": 972,
+        "height": 1619,
+        "description": "หนังสือนักดาบเวทและสิ่งที่แพทริกต้องเรียนรู้"
+      }
+    ]
   }
 };

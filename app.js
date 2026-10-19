@@ -224,7 +224,7 @@ function renderChapter(index) {
   chapterTitle.innerHTML = inline(title);
   readerMeta.hidden = !isComic;
   readerMeta.textContent = isComic
-    ? `จากนิยายตอนที่ ${comic.novelChapters.join(" และ ")} · ${comic.pages.length} หน้า · เลื่อนลงเพื่ออ่านต่อ`
+    ? `จากนิยายตอนที่ ${formatChapterNumbers(comic.novelChapters)} · ${comic.pages.length} หน้า · เลื่อนลงเพื่ออ่านต่อ`
     : "";
   chapterContent.innerHTML = isComic ? renderComic(chapter, comic) : renderMarkdown(chapter.content);
   prevButton.disabled = currentPosition <= 0;
@@ -240,6 +240,12 @@ function getAvailableChapters() {
   return viewMode === "comic"
     ? chapters.filter((chapter) => comicChapters[chapter.number]?.pages?.length)
     : chapters;
+}
+
+function formatChapterNumbers(numbers) {
+  return numbers.length < 2
+    ? numbers.join("")
+    : `${numbers.slice(0, -1).join(", ")} และ ${numbers[numbers.length - 1]}`;
 }
 
 function chapterLabel(chapter) {
@@ -261,11 +267,23 @@ function setViewMode(mode, requestedNovelNumber) {
   if (mode !== "novel" && mode !== "comic") {
     return;
   }
+  const previousMode = viewMode;
+  const previousNumber = chapters[activeIndex]?.number;
   viewMode = mode;
   localStorage.setItem(VIEW_MODE_KEY, mode);
   const available = getAvailableChapters();
-  if (mode === "novel" && requestedNovelNumber != null) {
-    const index = chapters.findIndex((chapter) => chapter.number === requestedNovelNumber);
+  if (mode === "novel") {
+    const novelNumber = requestedNovelNumber
+      ?? (previousMode === "comic" ? comicChapters[previousNumber]?.novelChapters[0] : null);
+    const index = chapters.findIndex((chapter) => chapter.number === novelNumber);
+    if (index >= 0) {
+      activeIndex = index;
+    }
+  } else if (previousMode === "novel") {
+    const matchingComic = Object.entries(comicChapters).find(([, comic]) =>
+      comic.novelChapters.includes(previousNumber),
+    );
+    const index = chapters.findIndex((chapter) => chapter.number === matchingComic?.[0]);
     if (index >= 0) {
       activeIndex = index;
     }
