@@ -12,6 +12,19 @@ const themeToggle = document.querySelector("#theme-toggle");
 const fontDown = document.querySelector("#font-down");
 const fontUp = document.querySelector("#font-up");
 const nameModeSelect = document.querySelector("#name-mode-select");
+const viewTabs = [...document.querySelectorAll(".reader-tab")];
+const readerMeta = document.querySelector("#reader-meta");
+const chapterNav = document.querySelector(".chapter-nav");
+
+const VIEW_MODE_KEY = "astrael-reader-view-mode";
+const comicChapters = {
+  "1": [
+    { src: "./assets/comic/chapter-01/page-01.webp", description: "ปราสาทอัลซีนและตำนานพยัคฆ์ขาว" },
+    { src: "./assets/comic/chapter-01/page-02.webp", description: "ความหวังของแพทริกและเสียงนินทาในเมืองหลวง" },
+    { src: "./assets/comic/chapter-01/page-03.webp", description: "พบองค์หญิงเซราฟินาในสวนกุหลาบ" },
+    { src: "./assets/comic/chapter-01/page-04.webp", description: "คำให้กำลังใจและลางสงครามในสภาขุนนาง" },
+  ],
+};
 
 const NAME_MODE_KEY = "astrael-reader-name-mode";
 const nameModeValues = new Set(["english", "thai", "english-thai", "thai-english"]);
@@ -74,7 +87,8 @@ const namePattern = new RegExp(
   "g",
 );
 
-let activeIndex = Math.max(0, chapters.findIndex((chapter) => chapter.number === "1"));
+let viewMode = getInitialViewMode();
+let activeIndex = getInitialChapterIndex();
 let fontScale = Number(localStorage.getItem("astrael-reader-font-scale") ?? 1);
 let nameMode = getSavedNameMode();
 
@@ -91,15 +105,40 @@ function init() {
 
 function bindEvents() {
   searchInput.addEventListener("input", () => {
-    const query = searchInput.value.trim().toLocaleLowerCase("th");
-    const filtered = chapters.filter((chapter) =>
-      `${chapter.number} ${chapter.title}`.toLocaleLowerCase("th").includes(query),
-    );
-    renderChapterList(filtered);
+    renderChapterList(filterChapters(searchInput.value.trim()));
   });
 
-  prevButton.addEventListener("click", () => renderChapter(activeIndex - 1));
-  nextButton.addEventListener("click", () => renderChapter(activeIndex + 1));
+  prevButton.addEventListener("click", () => navigateChapter(-1));
+  nextButton.addEventListener("click", () => navigateChapter(1));
+
+  viewTabs.forEach((tab) => {
+    tab.addEventListener("click", () => setViewMode(tab.dataset.view));
+    tab.addEventListener("keydown", (event) => {
+      const keys = ["ArrowLeft", "ArrowRight", "Home", "End"];
+      if (!keys.includes(event.key)) {
+        return;
+      }
+      event.preventDefault();
+      const nextTab = event.key === "Home"
+        ? viewTabs[0]
+        : event.key === "End"
+          ? viewTabs[viewTabs.length - 1]
+          : viewTabs[(viewTabs.indexOf(tab) + 1) % viewTabs.length];
+      setViewMode(nextTab.dataset.view);
+      nextTab.focus();
+    });
+  });
+
+  chapterContent.addEventListener("click", (event) => {
+    if (event.target.closest("[data-open-novel]")) {
+      setViewMode("novel");
+      document.querySelector("#novel-tab").focus();
+    }
+    if (event.target.closest("[data-reader-top]")) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      document.querySelector("#comic-tab").focus({ preventScroll: true });
+    }
+  });
 
   navToggle.addEventListener("click", () => {
     sidebar.classList.toggle("open");
@@ -171,22 +210,116 @@ function renderChapter(index) {
 
   activeIndex = index;
   const chapter = chapters[activeIndex];
+  const comicPages = comicChapters[chapter.number];
+  const isComic = viewMode === "comic";
+  const available = getAvailableChapters();
+  const currentPosition = available.indexOf(chapter);
+
+  document.body.dataset.view = viewMode;
+  viewTabs.forEach((tab) => {
+    const selected = tab.dataset.view === viewMode;
+    tab.setAttribute("aria-selected", String(selected));
+    tab.tabIndex = selected ? 0 : -1;
+  });
+  document.querySelectorAll(".novel-control").forEach((control) => {
+    control.hidden = isComic;
+  });
+  chapterContent.setAttribute("aria-labelledby", `${viewMode}-tab`);
+  chapterContent.classList.toggle("comic-content", isComic);
   chapterKicker.textContent = chapter.number === "0" ? "ตอน 00" : `ตอน ${chapter.number}`;
   chapterTitle.innerHTML = inline(chapter.title);
-  chapterContent.innerHTML = renderMarkdown(chapter.content);
-  prevButton.disabled = activeIndex === 0;
-  nextButton.disabled = activeIndex === chapters.length - 1;
-  document.title = `${chapter.number === "0" ? "ตอน 00" : `ตอน ${chapter.number}`} - ${chapter.title} | Astrael`;
+  readerMeta.hidden = !isComic;
+  readerMeta.textContent = isComic ? `ฉบับการ์ตูน · ${comicPages.length} หน้า · เลื่อนลงเพื่ออ่านต่อ` : "";
+  chapterContent.innerHTML = isComic ? renderComic(chapter, comicPages) : renderMarkdown(chapter.content);
+  prevButton.disabled = currentPosition <= 0;
+  nextButton.disabled = currentPosition === available.length - 1;
+  chapterNav.hidden = isComic && available.length < 2;
+  document.title = `${isComic ? "การ์ตูน " : ""}${chapter.number === "0" ? "ตอน 00" : `ตอน ${chapter.number}`} - ${chapter.title} | Astrael`;
   renderChapterList(filterChapters(searchInput.value.trim()));
+  updateReaderUrl(chapter);
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function getAvailableChapters() {
+  return viewMode === "comic"
+    ? chapters.filter((chapter) => comicChapters[chapter.number]?.length)
+    : chapters;
+}
+
+function navigateChapter(direction) {
+  const available = getAvailableChapters();
+  const position = available.indexOf(chapters[activeIndex]);
+  const nextChapter = available[position + direction];
+  if (nextChapter) {
+    renderChapter(chapters.indexOf(nextChapter));
+  }
+}
+
+function setViewMode(mode) {
+  if (mode !== "novel" && mode !== "comic") {
+    return;
+  }
+  viewMode = mode;
+  localStorage.setItem(VIEW_MODE_KEY, mode);
+  const available = getAvailableChapters();
+  if (!available.includes(chapters[activeIndex])) {
+    activeIndex = chapters.indexOf(available[0]);
+  }
+  renderChapter(activeIndex);
+}
+
+function getInitialViewMode() {
+  const requested = new URLSearchParams(window.location.search).get("view");
+  const saved = localStorage.getItem(VIEW_MODE_KEY);
+  return (requested ?? saved) === "comic" ? "comic" : "novel";
+}
+
+function getInitialChapterIndex() {
+  const requested = new URLSearchParams(window.location.search).get("chapter");
+  const available = getAvailableChapters();
+  const chapter = available.find((item) => item.number === requested)
+    ?? available.find((item) => item.number === "1")
+    ?? available[0];
+  return chapters.indexOf(chapter);
+}
+
+function updateReaderUrl(chapter) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("chapter", chapter.number);
+  url.searchParams.set("view", viewMode);
+  window.history.replaceState(null, "", url);
+}
+
+function renderComic(chapter, pages) {
+  return `
+    <div class="comic-pages" aria-label="การ์ตูนตอนที่ ${escapeAttribute(chapter.number)}">
+      ${pages.map((page, index) => `
+        <img class="comic-page"
+          src="${escapeAttribute(page.src)}"
+          alt="ตอนที่ ${escapeAttribute(chapter.number)} หน้า ${index + 1} จาก ${pages.length}: ${escapeAttribute(page.description)}"
+          width="971" height="1619"
+          loading="${index === 0 ? "eager" : "lazy"}" decoding="async"
+          ${index === 0 ? 'fetchpriority="high"' : ""}
+        />
+      `).join("")}
+    </div>
+    <div class="comic-end">
+      <p>จบตอนที่ ${escapeHtml(chapter.number)}</p>
+      <div class="comic-actions">
+        <button class="reader-action" type="button" data-open-novel>อ่านฉบับนิยาย</button>
+        <button class="reader-action" type="button" data-reader-top>กลับขึ้นด้านบน ↑</button>
+      </div>
+    </div>
+  `;
 }
 
 function filterChapters(query) {
   const normalized = query.toLocaleLowerCase("th");
+  const available = getAvailableChapters();
   if (!normalized) {
-    return chapters;
+    return available;
   }
-  return chapters.filter((chapter) =>
+  return available.filter((chapter) =>
     `${chapter.number} ${chapter.title}`.toLocaleLowerCase("th").includes(normalized),
   );
 }

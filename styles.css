@@ -31,6 +31,10 @@ html[data-theme="dark"] {
   box-sizing: border-box;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -227,6 +231,39 @@ input {
   min-width: 0;
 }
 
+.reader-tabs {
+  display: inline-flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  padding: 4px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: var(--paper-strong);
+}
+
+.reader-tab {
+  min-height: 42px;
+  padding: 8px 22px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reader-tab[aria-selected="true"] {
+  background: var(--ink);
+  color: var(--paper-strong);
+}
+
+.reader-tab:focus-visible,
+.reader-action:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
 .chapter-head {
   margin-bottom: 28px;
 }
@@ -241,6 +278,12 @@ input {
   margin: 0;
   font-size: 2rem;
   line-height: 1.25;
+}
+
+.chapter-head .reader-meta {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
 .chapter-content {
@@ -321,6 +364,53 @@ input {
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
+}
+
+.comic-content {
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.comic-pages {
+  overflow: hidden;
+  background: #fff;
+  line-height: 0;
+}
+
+.comic-page {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.comic-end {
+  padding: 30px 12px 10px;
+  text-align: center;
+}
+
+.comic-end p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.comic-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.reader-action {
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--paper-strong);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
 }
 
 .chapter-nav {
@@ -409,5 +499,11 @@ input {
 
   .chapter-content {
     line-height: 1.9;
+  }
+
+  .comic-content {
+    width: calc(100% + 24px);
+    margin-inline: -12px;
+    line-height: normal;
   }
 }

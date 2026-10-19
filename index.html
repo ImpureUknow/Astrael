@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Astrael - เว็บอ่านนิยายตอน 1-42" />
+    <meta name="description" content="Astrael - อ่านนิยายและการ์ตูน The Fall and Rebirth" />
     <title>Astrael Reader</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=comic-1" />
   </head>
   <body>
     <header class="topbar">
@@ -21,9 +21,9 @@
       </div>
 
       <div class="toolbar">
-        <button class="icon-button" id="font-down" type="button" aria-label="ลดขนาดตัวอักษร" title="ลดขนาดตัวอักษร">A-</button>
-        <button class="icon-button" id="font-up" type="button" aria-label="เพิ่มขนาดตัวอักษร" title="เพิ่มขนาดตัวอักษร">A+</button>
-        <label class="name-mode-control" title="Name display">
+        <button class="icon-button novel-control" id="font-down" type="button" aria-label="ลดขนาดตัวอักษร" title="ลดขนาดตัวอักษร">A-</button>
+        <button class="icon-button novel-control" id="font-up" type="button" aria-label="เพิ่มขนาดตัวอักษร" title="เพิ่มขนาดตัวอักษร">A+</button>
+        <label class="name-mode-control novel-control" title="Name display">
           <span>Names</span>
           <select id="name-mode-select" aria-label="Name display">
             <option value="english">EN</option>
@@ -59,12 +59,18 @@
       </aside>
 
       <section class="reading-pane">
+        <div class="reader-tabs" role="tablist" aria-label="รูปแบบการอ่าน">
+          <button class="reader-tab" id="novel-tab" type="button" role="tab" aria-selected="true" aria-controls="chapter-content" data-view="novel">อ่านนิยาย</button>
+          <button class="reader-tab" id="comic-tab" type="button" role="tab" aria-selected="false" aria-controls="chapter-content" tabindex="-1" data-view="comic">อ่านการ์ตูน</button>
+        </div>
+
         <div class="chapter-head">
           <p id="chapter-kicker"></p>
           <h2 id="chapter-title"></h2>
+          <p class="reader-meta" id="reader-meta" hidden></p>
         </div>
 
-        <article class="chapter-content" id="chapter-content"></article>
+        <article class="chapter-content" id="chapter-content" role="tabpanel" aria-labelledby="novel-tab" tabindex="0"></article>
 
         <footer class="chapter-nav">
           <button id="prev-chapter" type="button">ก่อนหน้า</button>
@@ -74,6 +80,6 @@
     </main>
 
     <script src="./chapters.js"></script>
-    <script src="./app.js"></script>
+    <script src="./app.js?v=comic-1"></script>
   </body>
 </html>
