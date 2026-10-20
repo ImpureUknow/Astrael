@@ -1881,13 +1881,13 @@ window.ASTRAEL_COMICS = {
         "description": "การ์ตูนตอนที่ 16 หน้า 2 — ห้องที่ปิดม่าน"
       },
       {
-        "src": "./assets/comic/chapter-16/page-03.webp?v=0e0e36fc3df5",
+        "src": "./assets/comic/chapter-16/page-03.webp?v=d1825d016a7b",
         "width": 972,
         "height": 1619,
         "description": "การ์ตูนตอนที่ 16 หน้า 3 — ห้องที่ปิดม่าน"
       },
       {
-        "src": "./assets/comic/chapter-16/page-04.webp?v=cd7cbecc02d2",
+        "src": "./assets/comic/chapter-16/page-04.webp?v=b1b2a56a2c8e",
         "width": 971,
         "height": 1620,
         "description": "การ์ตูนตอนที่ 16 หน้า 4 — ห้องที่ปิดม่าน"
