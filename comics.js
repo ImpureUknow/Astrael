@@ -151,9 +151,9 @@ window.ASTRAEL_COMICS = {
         "description": "สัมผัสออร่าครั้งแรกท่ามกลางหิมะ"
       },
       {
-        "src": "./assets/comic/chapter-02/page-06.webp?v=9e36ece9fc28",
+        "src": "./assets/comic/chapter-02/page-06.webp?v=e05998409fc4",
         "width": 971,
-        "height": 1619,
+        "height": 1620,
         "description": "จักรพรรดิและแผนสงครามในค่ายเอรินดอร์"
       },
       {
@@ -169,7 +169,7 @@ window.ASTRAEL_COMICS = {
         "description": "แม่น้ำ ป้อมปราการ และเส้นเลือดการค้า"
       },
       {
-        "src": "./assets/comic/chapter-02/page-09.webp?v=6e22c45110e3",
+        "src": "./assets/comic/chapter-02/page-09.webp?v=87836d9a9994",
         "width": 971,
         "height": 1619,
         "description": "พรสวรรค์ของแพทริกและคำสั่งเปิดสงคราม"
@@ -1159,6 +1159,396 @@ window.ASTRAEL_COMICS = {
         "width": 971,
         "height": 1620,
         "description": "การ์ตูนตอนที่ 10 หน้า 16 — ดาบทองคำแห่งจักรวรรดิ"
+      }
+    ]
+  },
+  "11": {
+    "title": "พระราชบัญชาสุดท้าย",
+    "novelChapters": [
+      "30",
+      "31",
+      "32"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-11/page-01.webp?v=40aee16046b3",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 1 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-02.webp?v=464188838405",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 2 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-03.webp?v=e8d5199db95e",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 3 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-04.webp?v=68b9eaff8750",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 4 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-05.webp?v=2ad3c7eff382",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 5 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-06.webp?v=34c6395b40be",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 6 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-07.webp?v=6be168cd7707",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 11 หน้า 7 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-08.webp?v=2c3909e15242",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 8 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-09.webp?v=b73ff29c7613",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 11 หน้า 9 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-10.webp?v=a2005377c147",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 10 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-11.webp?v=116a8aa15854",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 11 หน้า 11 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-12.webp?v=82c54ea386c4",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 12 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-13.webp?v=b8e3d8c12a56",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 13 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-14.webp?v=22e51b022092",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 14 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-15.webp?v=1fafe589c7dc",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 15 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-16.webp?v=d6d1b6d00db3",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 16 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-17.webp?v=add719e741aa",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 11 หน้า 17 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-18.webp?v=892bd2abfa50",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 18 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-19.webp?v=48f55d28ff37",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 11 หน้า 19 — พระราชบัญชาสุดท้าย"
+      },
+      {
+        "src": "./assets/comic/chapter-11/page-20.webp?v=324ae0a08ed9",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 11 หน้า 20 — พระราชบัญชาสุดท้าย"
+      }
+    ]
+  },
+  "12": {
+    "title": "ทางกลับบ้าน",
+    "novelChapters": [
+      "33",
+      "34",
+      "35"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-12/page-01.webp?v=00033b5e4688",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 12 หน้า 1 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-02.webp?v=002c4a5fa58d",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 2 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-03.webp?v=459535884f8a",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 3 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-04.webp?v=ed517aeceaa6",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 4 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-05.webp?v=9b547e5b6384",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 5 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-06.webp?v=fdda5c8afcdf",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 6 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-07.webp?v=c92e6d46dceb",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 7 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-08.webp?v=6b9df449b7da",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 8 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-09.webp?v=4a0230e72724",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 9 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-10.webp?v=1bd500b0a38c",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 10 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-11.webp?v=f2188080be41",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 11 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-12.webp?v=960c408638b8",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 12 หน้า 12 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-13.webp?v=c6a46fb1858b",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 13 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-14.webp?v=b8fb843cfd48",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 14 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-15.webp?v=c3ccea401559",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 15 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-16.webp?v=917c970db3a5",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 16 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-17.webp?v=5ed68a62b0d6",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 12 หน้า 17 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-18.webp?v=23dceb085389",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 18 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-19.webp?v=27aeb6651c0d",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 19 — ทางกลับบ้าน"
+      },
+      {
+        "src": "./assets/comic/chapter-12/page-20.webp?v=eb9333015aa7",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 12 หน้า 20 — ทางกลับบ้าน"
+      }
+    ]
+  },
+  "13": {
+    "title": "เงาแห่งพยัคฆ์ขาว",
+    "novelChapters": [
+      "36",
+      "37",
+      "38"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-13/page-01.webp?v=ce8e17d28ad4",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 1 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-02.webp?v=3f70ccbd92c8",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 2 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-03.webp?v=82f47f043ebc",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 3 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-04.webp?v=b4436fd1cc24",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 4 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-05.webp?v=3c5df9fd22e5",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 5 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-06.webp?v=da6e9d931fbd",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 6 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-07.webp?v=dbd9cd5bdfc3",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 13 หน้า 7 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-08.webp?v=7a1907b0c22a",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 8 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-09.webp?v=909d0a52ac1b",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 9 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-10.webp?v=257eeb6ee29b",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 10 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-11.webp?v=4fd8383315e6",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 11 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-12.webp?v=584be4cd28a2",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 12 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-13.webp?v=44ed52d9b226",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 13 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-14.webp?v=0f78c3be897e",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 14 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-15.webp?v=d77f575b67c7",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 15 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-16.webp?v=8fa502caeedc",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 16 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-17.webp?v=e05878999dda",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 17 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-18.webp?v=686be8abd6e3",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 18 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-19.webp?v=6bfdfd269f62",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 19 — เงาแห่งพยัคฆ์ขาว"
+      },
+      {
+        "src": "./assets/comic/chapter-13/page-20.webp?v=70dabc8d4b5c",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 13 หน้า 20 — เงาแห่งพยัคฆ์ขาว"
       }
     ]
   }
