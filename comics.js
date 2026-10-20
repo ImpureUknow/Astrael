@@ -1859,5 +1859,757 @@ window.ASTRAEL_COMICS = {
         "description": "การ์ตูนตอนที่ 15 หน้า 26 — รุ่งอรุณของอัสทราเอล"
       }
     ]
+  },
+  "16": {
+    "title": "ห้องที่ปิดม่าน",
+    "novelChapters": [
+      "45",
+      "46",
+      "47"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-16/page-01.webp?v=af3668c8e56c",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 1 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-02.webp?v=435aa1c1fdf0",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 2 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-03.webp?v=0e0e36fc3df5",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 3 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-04.webp?v=cd7cbecc02d2",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 16 หน้า 4 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-05.webp?v=4854db3a4f37",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 5 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-06.webp?v=f6dfdaf32f3e",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 16 หน้า 6 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-07.webp?v=29978f06940a",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 7 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-08.webp?v=a73e44c1b644",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 8 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-09.webp?v=ca2c32bca3d4",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 9 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-10.webp?v=bd43913bf4e6",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 10 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-11.webp?v=2938614cf8b3",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 11 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-12.webp?v=57ac109ddc83",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 12 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-13.webp?v=d2f0afd573b4",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 13 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-14.webp?v=7c18994a1810",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 14 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-15.webp?v=30ea5ac147a1",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 15 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-16.webp?v=7b8502631a2e",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 16 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-17.webp?v=624d75301ef9",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 17 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-18.webp?v=897e8c3a58e3",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 18 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-19.webp?v=b5b57afdaf78",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 19 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-20.webp?v=3063f076772a",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 16 หน้า 20 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-21.webp?v=7e5896943160",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 21 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-22.webp?v=cbe3504b7d50",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 22 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-23.webp?v=15956a95aefe",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 16 หน้า 23 — ห้องที่ปิดม่าน"
+      },
+      {
+        "src": "./assets/comic/chapter-16/page-24.webp?v=f900c3bb5dc0",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 16 หน้า 24 — ห้องที่ปิดม่าน"
+      }
+    ]
+  },
+  "17": {
+    "title": "ราคาของคำรับปาก",
+    "novelChapters": [
+      "48",
+      "49",
+      "50"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-17/page-01.webp?v=4c26aed53a63",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 1 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-02.webp?v=ef39a40be1ca",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 2 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-03.webp?v=8a19c15e9d4c",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 3 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-04.webp?v=1a128752834c",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 17 หน้า 4 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-05.webp?v=d0edf7ddce38",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 17 หน้า 5 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-06.webp?v=d62bdbd74900",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 6 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-07.webp?v=7e4351a93da9",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 7 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-08.webp?v=ecf697e4dadc",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 8 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-09.webp?v=d50b53520e97",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 9 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-10.webp?v=89aef80e0926",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 10 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-11.webp?v=18dbe49ba041",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 11 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-12.webp?v=348b7559b54b",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 12 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-13.webp?v=1c93df3d0d0f",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 17 หน้า 13 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-14.webp?v=d0b829fd7796",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 14 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-15.webp?v=c328d8b9dade",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 15 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-16.webp?v=4cca353103f6",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 16 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-17.webp?v=078f13ca9d4e",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 17 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-18.webp?v=644ea061ee1d",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 17 หน้า 18 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-19.webp?v=b460afafe077",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 19 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-20.webp?v=da433ebf4614",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 20 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-21.webp?v=03896268f672",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 21 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-22.webp?v=d84870dc407d",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 22 — ราคาของคำรับปาก"
+      },
+      {
+        "src": "./assets/comic/chapter-17/page-23.webp?v=97a77fb62fd1",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 17 หน้า 23 — ราคาของคำรับปาก"
+      }
+    ]
+  },
+  "18": {
+    "title": "กำลังที่มีอยู่จริง",
+    "novelChapters": [
+      "51",
+      "52",
+      "53"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-18/page-01.webp?v=eff7ecd985a2",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 18 หน้า 1 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-02.webp?v=90e7d334818a",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 2 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-03.webp?v=cfe200bb2520",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 3 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-04.webp?v=73513f8f5b6b",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 18 หน้า 4 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-05.webp?v=79fe6966ceab",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 5 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-06.webp?v=9dde46115c33",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 18 หน้า 6 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-07.webp?v=bf5ffedda94b",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 7 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-08.webp?v=f0e7e6b98c8a",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 8 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-09.webp?v=14d9de1c3dd2",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 18 หน้า 9 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-10.webp?v=5b24d6ca1d83",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 18 หน้า 10 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-11.webp?v=5505f8f89c9b",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 11 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-12.webp?v=c0deee4b0a80",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 18 หน้า 12 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-13.webp?v=72f998cb056a",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 13 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-14.webp?v=685bb4284081",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 14 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-15.webp?v=272bbcc3dc11",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 15 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-16.webp?v=f7ba3ae6afcf",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 16 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-17.webp?v=80f9b084713c",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 17 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-18.webp?v=dc71d5af9c03",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 18 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-19.webp?v=8e181dfab289",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 19 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-20.webp?v=f6c4aa67d1ae",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 20 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-21.webp?v=9b9339f2e0b0",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 21 — กำลังที่มีอยู่จริง"
+      },
+      {
+        "src": "./assets/comic/chapter-18/page-22.webp?v=a63550ce68ea",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 18 หน้า 22 — กำลังที่มีอยู่จริง"
+      }
+    ]
+  },
+  "19": {
+    "title": "ราคาของขบวนเรือ",
+    "novelChapters": [
+      "54",
+      "55",
+      "56"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-19/page-01.webp?v=23c0d26bfafd",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 19 หน้า 1 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-02.webp?v=418ad9d55d42",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 2 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-03.webp?v=f7f6efbb644b",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 3 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-04.webp?v=ab43ebb1468a",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 4 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-05.webp?v=fb07bf5fe3e1",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 5 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-06.webp?v=e493973be2bd",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 6 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-07.webp?v=f0ca4604f4e6",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 7 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-08.webp?v=0e480473afbc",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 8 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-09.webp?v=46d0d617dea2",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 9 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-10.webp?v=54e1b9cb1f71",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 10 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-11.webp?v=457cdbe1ab5d",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 11 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-12.webp?v=f5362a9d6de3",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 12 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-13.webp?v=cb2ec36047c2",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 13 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-14.webp?v=471789339a8b",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 19 หน้า 14 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-15.webp?v=d9e1cbc75c50",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 19 หน้า 15 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-16.webp?v=2372c68b3c45",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 16 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-17.webp?v=c616d23cbb6e",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 17 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-18.webp?v=2b3d91ae15fa",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 19 หน้า 18 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-19.webp?v=a1507be8ce28",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 19 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-20.webp?v=8cf29c482cab",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 20 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-21.webp?v=1da1c957b544",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 21 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-22.webp?v=844f57a287e8",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 19 หน้า 22 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-23.webp?v=305e567af590",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 23 — ราคาของขบวนเรือ"
+      },
+      {
+        "src": "./assets/comic/chapter-19/page-24.webp?v=bbb8c651a542",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 19 หน้า 24 — ราคาของขบวนเรือ"
+      }
+    ]
+  },
+  "20": {
+    "title": "คนที่เลือกอยู่",
+    "novelChapters": [
+      "57",
+      "58",
+      "59"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-20/page-01.webp?v=4d364fa8af46",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 1 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-02.webp?v=dc4b174df281",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 2 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-03.webp?v=c3a1453400e1",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 3 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-04.webp?v=74e0cba39966",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 4 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-05.webp?v=5e3fcb68acad",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 5 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-06.webp?v=2ebf4372518e",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 6 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-07.webp?v=45e925c89a37",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 7 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-08.webp?v=1c74820847be",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 8 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-09.webp?v=b513c369797c",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 9 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-10.webp?v=0d4369bfa5a7",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 10 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-11.webp?v=84b09649bf27",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 11 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-12.webp?v=719fff7190c0",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 12 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-13.webp?v=a4690c65a424",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 13 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-14.webp?v=93ccebf09531",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 14 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-15.webp?v=4c4d6f1fdede",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 15 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-16.webp?v=157e23788f24",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 16 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-17.webp?v=e05c1484240d",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 17 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-18.webp?v=4688475b29f8",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 18 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-19.webp?v=ab9a8e9d2cb1",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 19 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-20.webp?v=aaf14aca002b",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 20 หน้า 20 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-21.webp?v=1aa8c19c2dbc",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 21 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-22.webp?v=e1a0ab94a871",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 22 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-23.webp?v=63ce77f78c24",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 23 — คนที่เลือกอยู่"
+      },
+      {
+        "src": "./assets/comic/chapter-20/page-24.webp?v=1580f3bb9043",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 20 หน้า 24 — คนที่เลือกอยู่"
+      }
+    ]
   }
 };
