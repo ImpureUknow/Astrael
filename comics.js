@@ -1201,9 +1201,9 @@ window.ASTRAEL_COMICS = {
         "description": "การ์ตูนตอนที่ 11 หน้า 5 — พระราชบัญชาสุดท้าย"
       },
       {
-        "src": "./assets/comic/chapter-11/page-06.webp?v=34c6395b40be",
+        "src": "./assets/comic/chapter-11/page-06.webp?v=c36ea06e5057",
         "width": 971,
-        "height": 1619,
+        "height": 1620,
         "description": "การ์ตูนตอนที่ 11 หน้า 6 — พระราชบัญชาสุดท้าย"
       },
       {
@@ -1213,7 +1213,7 @@ window.ASTRAEL_COMICS = {
         "description": "การ์ตูนตอนที่ 11 หน้า 7 — พระราชบัญชาสุดท้าย"
       },
       {
-        "src": "./assets/comic/chapter-11/page-08.webp?v=2c3909e15242",
+        "src": "./assets/comic/chapter-11/page-08.webp?v=0959d2cd4201",
         "width": 972,
         "height": 1619,
         "description": "การ์ตูนตอนที่ 11 หน้า 8 — พระราชบัญชาสุดท้าย"
@@ -1307,9 +1307,9 @@ window.ASTRAEL_COMICS = {
         "description": "การ์ตูนตอนที่ 12 หน้า 1 — ทางกลับบ้าน"
       },
       {
-        "src": "./assets/comic/chapter-12/page-02.webp?v=002c4a5fa58d",
+        "src": "./assets/comic/chapter-12/page-02.webp?v=7a31e730ce84",
         "width": 971,
-        "height": 1619,
+        "height": 1620,
         "description": "การ์ตูนตอนที่ 12 หน้า 2 — ทางกลับบ้าน"
       },
       {
@@ -1437,9 +1437,9 @@ window.ASTRAEL_COMICS = {
         "description": "การ์ตูนตอนที่ 13 หน้า 1 — เงาแห่งพยัคฆ์ขาว"
       },
       {
-        "src": "./assets/comic/chapter-13/page-02.webp?v=3f70ccbd92c8",
+        "src": "./assets/comic/chapter-13/page-02.webp?v=5dbbb04fa0c6",
         "width": 971,
-        "height": 1619,
+        "height": 1620,
         "description": "การ์ตูนตอนที่ 13 หน้า 2 — เงาแห่งพยัคฆ์ขาว"
       },
       {
@@ -1621,7 +1621,7 @@ window.ASTRAEL_COMICS = {
         "description": "การ์ตูนตอนที่ 14 หน้า 10 — บ้านที่ผู้คนอยากปกป้อง"
       },
       {
-        "src": "./assets/comic/chapter-14/page-11.webp?v=d91643261ac3",
+        "src": "./assets/comic/chapter-14/page-11.webp?v=60386b273775",
         "width": 972,
         "height": 1619,
         "description": "การ์ตูนตอนที่ 14 หน้า 11 — บ้านที่ผู้คนอยากปกป้อง"
