@@ -1551,5 +1551,313 @@ window.ASTRAEL_COMICS = {
         "description": "การ์ตูนตอนที่ 13 หน้า 20 — เงาแห่งพยัคฆ์ขาว"
       }
     ]
+  },
+  "14": {
+    "title": "บ้านที่ผู้คนอยากปกป้อง",
+    "novelChapters": [
+      "39",
+      "40",
+      "41"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-14/page-01.webp?v=b40578ac7ed1",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 1 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-02.webp?v=031f8e6180e0",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 2 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-03.webp?v=07d786eeb54c",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 3 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-04.webp?v=348f48108a1d",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 4 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-05.webp?v=1211be6f06e7",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 14 หน้า 5 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-06.webp?v=ce6fa358b423",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 14 หน้า 6 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-07.webp?v=2bf22fdb5783",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 7 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-08.webp?v=d6f673abf3f7",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 14 หน้า 8 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-09.webp?v=d92b64f4c50d",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 9 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-10.webp?v=a1f8574858ed",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 14 หน้า 10 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-11.webp?v=d91643261ac3",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 11 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-12.webp?v=11f944188b12",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 12 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-13.webp?v=a7ef868c776f",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 13 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-14.webp?v=f2f3ebb9e924",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 14 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-15.webp?v=fa2f6e005491",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 15 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-16.webp?v=eeb4d7db12ba",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 14 หน้า 16 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-17.webp?v=e14788fd2dba",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 17 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-18.webp?v=b99fba370aee",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 18 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-19.webp?v=329a08e43d8b",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 14 หน้า 19 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-20.webp?v=e1b55d103d16",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 20 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-21.webp?v=62529248b66e",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 21 — บ้านที่ผู้คนอยากปกป้อง"
+      },
+      {
+        "src": "./assets/comic/chapter-14/page-22.webp?v=877da49b256a",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 14 หน้า 22 — บ้านที่ผู้คนอยากปกป้อง"
+      }
+    ]
+  },
+  "15": {
+    "title": "รุ่งอรุณของอัสทราเอล",
+    "novelChapters": [
+      "42",
+      "43",
+      "44"
+    ],
+    "pages": [
+      {
+        "src": "./assets/comic/chapter-15/page-01.webp?v=48e1397adcbd",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 1 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-02.webp?v=24ea86bcf168",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 2 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-03.webp?v=7c90d5087211",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 3 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-04.webp?v=7da9e435a745",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 4 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-05.webp?v=d9d6fedfb980",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 5 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-06.webp?v=40d642222635",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 6 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-07.webp?v=6358d1c14b2c",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 7 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-08.webp?v=63018c57b90b",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 8 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-09.webp?v=a9c30a4d1378",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 9 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-10.webp?v=7f489e6f3e84",
+        "width": 972,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 10 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-11.webp?v=9b77b1cf22f2",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 15 หน้า 11 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-12.webp?v=19d02ba66852",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 12 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-13.webp?v=480ec312f847",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 13 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-14.webp?v=d01d5d6523ce",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 14 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-15.webp?v=3779f7cdd833",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 15 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-16.webp?v=1b4efae8e29a",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 16 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-17.webp?v=8ea20bbb8233",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 17 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-18.webp?v=102f467c2f0e",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 18 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-19.webp?v=a763c80615dd",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 15 หน้า 19 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-20.webp?v=a9ec10f0d629",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 15 หน้า 20 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-21.webp?v=a92a07fefe20",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 21 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-22.webp?v=91e750d13f23",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 22 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-23.webp?v=7f52e6e3f786",
+        "width": 971,
+        "height": 1620,
+        "description": "การ์ตูนตอนที่ 15 หน้า 23 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-24.webp?v=389bfe9e6bdb",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 24 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-25.webp?v=978e24474d71",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 25 — รุ่งอรุณของอัสทราเอล"
+      },
+      {
+        "src": "./assets/comic/chapter-15/page-26.webp?v=f274baf6ea58",
+        "width": 971,
+        "height": 1619,
+        "description": "การ์ตูนตอนที่ 15 หน้า 26 — รุ่งอรุณของอัสทราเอล"
+      }
+    ]
   }
 };
